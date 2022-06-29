@@ -10,10 +10,17 @@ namespace learning
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
-            {
+  
+                string a;
+                string b;
+                string c;
+                a = Console.ReadLine("Enter a:");
+                b = Console.ReadLine("Enter b:");
+                c = a;
                 
-            };
+                Console.WriteLine(a = b);
+                Console.WriteLine(b = a);
+            
         }
     }
 }
